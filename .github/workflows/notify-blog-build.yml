@@ -1,0 +1,36 @@
+# TASK-1104 — Content repository trigger.
+#
+# Lives in the CONTENT repository (not the application repository). When the
+# content repository's main branch moves — whether through a CMS publish or an
+# external Git edit — it tells the application repository to rebuild the blog
+# via repository_dispatch, which starts `.github/workflows/deploy-blog.yml`.
+#
+# Required repository secrets (in the content repository):
+#   APP_REPO         owner/name of the application repository
+#   APP_REPO_TOKEN   a fine-grained PAT (or GitHub App token) with
+#                    contents:read *and* actions:write on the application
+#                    repository — repository_dispatch needs actions:write.
+
+name: Notify Blog Build
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger the blog deployment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.repos.createDispatchEvent({
+              owner: context.repo.owner,
+              repo: "${{ secrets.APP_REPO }}".split("/")[1],
+              event_type: "content-published",
+              client_payload: {
+                contentSha: context.sha,
+                pusher: context.actor,
+              },
+            });
