@@ -1,0 +1,11 @@
+{
+  "name": "CertiBuddy Blog",
+  "description": "A Git-native blog built on Cloudflare Workers.",
+  "domain": "blog.example.com",
+  "defaultLocale": "zh-CN",
+  "supportedLocales": ["zh-CN", "en-US"],
+  "navigation": [
+    { "label": "首页", "href": "/zh-CN/" },
+    { "label": "About", "href": "/zh-CN/about/" }
+  ]
+}
