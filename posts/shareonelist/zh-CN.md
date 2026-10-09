@@ -23,7 +23,7 @@ tags:
 
 ShareOneList 把“账户类型”作为一等公民来对待，登录时它会按云环境自动路由到对应的 Microsoft Graph 端点。每种账户类型在侧边栏里只显示其拥有的服务入口——OneDrive、SharePoint、Teams 录像——既不会把不支持的入口暴露给你，也不需要你在两个客户端之间来回切换。
 
-![](https://statics.msone.top/assets/posts/01M4F4RH7N5YR9QPEWWF513W9Q/adf9774de0bb2d09a5b8b73baf6a61bd97521ac5f4ae0dc60c226fabf1df4e00.png)
+![](https://img.maowoo.top/assets/posts/01M4F4RH7N5YR9QPEWWF513W9Q/adf9774de0bb2d09a5b8b73baf6a61bd97521ac5f4ae0dc60c226fabf1df4e00.png)
 
 *图 1　文件视图：国际版与世纪互联版账户并行管理*
 
@@ -41,7 +41,7 @@ ShareOneList 把“账户类型”作为一等公民来对待，登录时它会�
 
 应用内置中英文 UI、深色/浅色主题（跟随系统或手动切换）、文件列表排序、面包屑折叠、缩略图与多视图布局。下面是文件浏览的默认效果：
 
-![](https://statics.msone.top/assets/posts/01M4F4RH7N5YR9QPEWWF513W9Q/63c2494988fe888c227d270d30695ecfcec51ae7ab6472564004571963c5e40e.png)
+![](https://img.maowoo.top/assets/posts/01M4F4RH7N5YR9QPEWWF513W9Q/63c2494988fe888c227d270d30695ecfcec51ae7ab6472564004571963c5e40e.png)
 
 *图 2　资源管理器式 UI，文件夹 / 文档 / 视频统一呈现*
 
@@ -76,7 +76,7 @@ ShareOneList 把“账户类型”作为一等公民来对待，登录时它会�
 - **拖拽上传**：本地到云端，反向亦可；
 - **AI 助手（v2.2.0-beta 新增）**：接入任意 OpenAI 兼容模型（OpenAI / Azure OpenAI / DeepSeek / 阿里百炼 / Moonshot / 智谱 / Ollama 预设），可基于你的云端文件回答问题，回答附带可点击的引用卡片。
 
-![](https://statics.msone.top/assets/posts/01M4F4RH7N5YR9QPEWWF513W9Q/40b4f11a8a5684cfa49ea5bb3b1c56afe8b5a218ede8932da8e10aaac2739926.png)
+![](https://img.maowoo.top/assets/posts/01M4F4RH7N5YR9QPEWWF513W9Q/40b4f11a8a5684cfa49ea5bb3b1c56afe8b5a218ede8932da8e10aaac2739926.png)
 
 *图 3　下载/上传任务统一管理，进度与速度一目了然*
 
