@@ -2,7 +2,7 @@
 title: "ShareOneList：一个应用，串起三种 Microsoft 365 账户"
 slug: "shareonelist-microsoft-365"
 date: "2026-10-09"
-status: "draft"
+status: "published"
 category: "猫叔手作"
 tags:
   - "shareonelist"
