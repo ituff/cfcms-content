@@ -3,9 +3,25 @@
   "description": "A Git-native blog built on Cloudflare Workers.",
   "domain": "blog.example.com",
   "defaultLocale": "zh-CN",
-  "supportedLocales": ["zh-CN", "en-US"],
+  "supportedLocales": [
+    "zh-CN",
+    "en-US"
+  ],
   "navigation": [
-    { "label": "首页", "href": "/zh-CN/" },
-    { "label": "About", "href": "/zh-CN/about/" }
-  ]
+    {
+      "label": "首页",
+      "href": "/zh-CN/"
+    },
+    {
+      "label": "About",
+      "href": "/zh-CN/about/"
+    }
+  ],
+  "comments": {
+    "repo": "ituff/cfcms-content",
+    "repoId": "R_kgDOVAkibQ",
+    "category": "Announcements",
+    "categoryId": "DIC_kwDOVAkibc4DHa1r",
+    "lang": "zh-CN"
+  }
 }
