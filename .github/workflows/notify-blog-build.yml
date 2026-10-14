@@ -24,6 +24,10 @@ jobs:
       - name: Trigger the blog deployment
         uses: actions/github-script@v7
         with:
+          # The workflow's own GITHUB_TOKEN is scoped to THIS repository and
+          # cannot create a dispatch on the application repository (404) —
+          # the cross-repo call authenticates as APP_REPO_TOKEN.
+          github-token: ${{ secrets.APP_REPO_TOKEN }}
           script: |
             await github.rest.repos.createDispatchEvent({
               owner: context.repo.owner,
