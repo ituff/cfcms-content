@@ -1,0 +1,16 @@
+{
+  "id": "01M4JG9RFM6ZF0KXY61KY08QAH",
+  "type": "post",
+  "canonicalLocale": "zh-CN",
+  "locales": [
+    "zh-CN"
+  ],
+  "discussions": {
+    "zh-CN": {
+      "provider": "github-discussions",
+      "number": 2
+    }
+  },
+  "createdAt": "2026-10-10T08:53:59.412Z",
+  "updatedAt": "2026-10-10T08:53:59.412Z"
+}
