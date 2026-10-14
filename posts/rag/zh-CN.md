@@ -1,8 +1,9 @@
 ---
 title: "从“找到答案”到“经营知识”"
 slug: "rag"
+description: "从检索答案转向经营知识，单次问答难以沉淀长期价值，关键在于把零散问答整理成可复用、可迭代的知识资产。读完可以掌握一套让团队知识持续积累、随时调用的具体做法。"
 date: "2026-10-14"
-status: "published"
+status: "draft"
 category: "data-ai"
 tags:
   - "rag"
