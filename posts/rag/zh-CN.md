@@ -183,7 +183,7 @@ RAG 让回答有证据可查；LLM Wiki 让理解成果有地方保存；Ontolog
 
 所谓“经营知识”，就是同时管理知识的来源、质量、时效、复用与责任。不是让系统越写越多，而是让值得信任的知识越积越深，让已经失效的知识能够退出，让员工和 Agent 每次使用时都知道：哪些是事实，哪些是推导，哪些还需要确认。
 
-# [参考文献](#参考文献)
+# 参考文献
 
 \[1\] Lewis 等：Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks（2020）。
 
